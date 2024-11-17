@@ -10,7 +10,7 @@ NeuroCruise is an innovative project that leverages brainwave data (EEG) from th
 
 ## **Getting Started**
 
-Follow these steps to set up and run the NeuroCruze project.
+Follow these steps to set up and run the NeuroCruise project.
 
 ### **Prerequisites**
 - **Hardware**:
@@ -26,8 +26,8 @@ Follow these steps to set up and run the NeuroCruze project.
 ### **Installation**
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/neurocruze.git
-   cd neurocruze
+   git clone https://github.com/your-username/neurocruise.git
+   cd neurocruise
    ```
 
 2. **Install Dependencies**:
@@ -36,14 +36,14 @@ Follow these steps to set up and run the NeuroCruze project.
    ```
 
 3. **Upload Arduino Sketch**:
-   - Open `arduino/neurocruze.ino` in the Arduino IDE.
+   - Open `arduino/sketch.ino` in the Arduino IDE.
    - Upload the sketch to your Arduino-compatible board.
 
 ### **Usage Instructions**
 1. **Start the Data Stream**:
    Run the Python streaming script to begin receiving EEG and EMG data:
    ```bash
-   python stream.py
+   python Main/stream.py
    ```
 
 2. **Launch the AI Notebook**:
@@ -58,23 +58,23 @@ Follow these steps to set up and run the NeuroCruze project.
 
 ### **File Structure**
 ```
-neurocruze/
+neurocruise/
 ├── arduino/
-│   └── sketch.ino     # Arduino sketch for signal communication
+│   └── sketch.ino         # Arduino sketch for signal communication
 ├── data/
 │   └── eeg_emg_data.csv   # Sample data for training/testing
 ├── Main/
-│   └── ai.ipynb           # AI training and inference notebook
-├── Main/
+│   ├── ai.ipynb           # AI training and inference notebook
 │   └── stream.py          # EEG/EMG streaming script
 └── README.md              # Project documentation
 ```
 
 ### **Demo Video**
-*Link to video demonstrating NeuroCruise in action.*
+[Watch NeuroCruise in Action!](#)  
+(*Replace with a video link showcasing the project.*)
 
 ### **Contributing**
-We welcome contributions to improve NeuroCruze! Feel free to fork this repository and create a pull request.
+We welcome contributions to improve NeuroCruise! Feel free to fork this repository and create a pull request.
 
 ### **License**
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
