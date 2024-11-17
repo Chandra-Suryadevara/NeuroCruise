@@ -1,6 +1,6 @@
-# **NeuroCruze: Mind-Driven Car Control using EEG and EMG**
+# **NeuroCruise: Mind-Driven Car Control using EEG and EMG**
 
-NeuroCruze is an innovative project that leverages brainwave data (EEG) from the Muse 2 and muscle activity (EMG) from BioAmp EXG EEG to control a car. The project uses an AI model trained on EEG data to classify mental states like relaxation and alertness, enabling seamless human-machine interaction.
+NeuroCruise is an innovative project that leverages brainwave data (EEG) from the Muse 2 and muscle activity (EMG) from BioAmp EXG EEG to control a car. The project uses an AI model trained on EEG data to classify mental states like relaxation and alertness, enabling seamless human-machine interaction.
 
 ## **Features**
 - **EEG Integration**: Reads brain activity to detect relaxation (Alpha waves) and alertness (Beta waves).
@@ -71,7 +71,7 @@ neurocruze/
 ```
 
 ### **Demo Video**
-*Link to video demonstrating NeuroCruze in action.*
+*Link to video demonstrating NeuroCruise in action.*
 
 ### **Contributing**
 We welcome contributions to improve NeuroCruze! Feel free to fork this repository and create a pull request.
